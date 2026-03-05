@@ -26,6 +26,9 @@ My research focus is `hierarchical modeling`, `non-Gaussian processes`, `Bayesia
 
 Previously, I completed my M.S. in Statistics at KAUST and my B.S. in Computer Science (minor in Mathematics) at [Wenzhou-Kean University](https://www.wku.edu.cn/en).
 
-<!-- From Dec 2024 to Nov 2025, I interned at [CAMEL-AI](https://github.com/camel-ai/camel), where I worked on multi-agent systems, MCP integration, and open-source tooling (including [MCPify](https://github.com/camel-ai/mcpify)). -->
+From Dec 2024 to Nov 2025, I interned at [CAMEL-AI](https://github.com/camel-ai/camel), where I worked on multi-agent systems, MCP integration, and open-source tooling (including [MCPify](https://github.com/camel-ai/mcpify)).
 
-I am also an open-source developer of the [ngme2](https://github.com/davidbolin/ngme2) R package for non-Gaussian statistical modeling.
+
+## R packages
+
+- **ngme2**: I am the main developer of the [ngme2](https://davidbolin.github.io/ngme2) R package for non-Gaussian statistical modeling.
