@@ -1,7 +1,12 @@
 ---
 ---
 <div class="row">
-  {% if site.enable_publication_thumbnails %}
+  {% assign show_thumbnail_col = false %}
+  {% if site.enable_publication_thumbnails and (entry.preview or entry.abbr) %}
+    {% assign show_thumbnail_col = true %}
+  {% endif %}
+
+  {% if show_thumbnail_col %}
     <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
@@ -39,7 +44,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{entry.key}}" class="{% if show_thumbnail_col %}col-sm-10{% else %}col-12{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->

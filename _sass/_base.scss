@@ -403,6 +403,25 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Social (profile top)
+.profile {
+  .profile-social {
+    margin-bottom: 0.6rem;
+    text-align: left;
+
+    .contact-icons {
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+  }
+}
+
+.profile.float-right {
+  .profile-social {
+    text-align: right;
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;

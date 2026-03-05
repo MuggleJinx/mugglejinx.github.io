@@ -6,12 +6,12 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Xiaotian
 middle_name:
 last_name: Jin
-email: jin.xiaotian.kim@gmail.com
+email: xiaotian.jin@kaust.edu.sa
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Xiaotian Jin's homepage: PhD candidate in Statistics at KAUST, focusing on Bayesian inference, causal inference, and machine learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: statistics, machine-learning, bayesian-inference, causal-inference, ai-agents, kaust
 lang: en
 # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icon.png
@@ -66,11 +66,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: MuggleJinx
+github_username: mugglejinx
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: xiaotian-jin-ba7786134
 telegram_username: # your Telegram user name
 scholar_userid:  # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -103,7 +103,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
-contact_note: Feel free to reach out to me!
+contact_note: Feel free to reach out via email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -180,7 +180,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 

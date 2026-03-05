@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: PhD student in Statistics, <a href='https://www.kaust.edu.sa/en/'> KAUST </a>
+subtitle: PhD Candidate in Statistics, <a href='https://www.kaust.edu.sa/en/'>KAUST</a>
 
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -15,15 +15,17 @@ profile:
 #    <p>123 your address street</p>
 #    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, this is Xiaotian, a STAT PhD student at King Abdullah University of Science and Technology (KAUST), in [Stochastic Processes and Applied Statistics](https://cemse.kaust.edu.sa/stochproc) research group, supervised under Prof.
-[David Bolin](https://www.kaust.edu.sa/en/study/faculty/david-bolin').
+Hi, I am Xiaotian Jin, a PhD candidate in Statistics at King Abdullah University of Science and Technology (KAUST), in the [Stochastic Processes and Applied Statistics](https://cemse.kaust.edu.sa/stochproc) group, advised by [David Bolin](https://www.kaust.edu.sa/en/study/faculty/david-bolin).
 
-Before starting my PhD, I got a bachelor's degree in Computer Science at [Wenzhou-Kean University](https://www.kean.edu/wku),
-and my M.S degree in Statistics at KAUST.
+My research focus is `hierarchical modeling`, `non-Gaussian processes`, `Bayesian inference`, `computational statistics`, and `optimization methods`.
 
-My research interests include `Statistical computing`, `non-Gaussian processes`, `Markov Chain Monte Carlo`.
+Previously, I completed my M.S. in Statistics at KAUST and my B.S. in Computer Science (minor in Mathematics) at [Wenzhou-Kean University](https://www.wku.edu.cn/en).
+
+<!-- From Dec 2024 to Nov 2025, I interned at [CAMEL-AI](https://github.com/camel-ai/camel), where I worked on multi-agent systems, MCP integration, and open-source tooling (including [MCPify](https://github.com/camel-ai/mcpify)). -->
+
+I am also an open-source developer of the [ngme2](https://github.com/davidbolin/ngme2) R package for non-Gaussian statistical modeling.
